@@ -182,7 +182,7 @@ void delete_reservation()
 {
     if (first == NULL)
     {
-        printf("NO BUSES ARE AVAILABLE TO RESERVE SEAT...\n");
+        printf("NO BUSES ARE AVAILABLE TO DERESERVE SEAT...\n");
         return;
     }
     int res, seat, j = 0, i = 0;
